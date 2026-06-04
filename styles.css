@@ -453,6 +453,19 @@ ul { list-style: none; }
   font-size: 13px; font-weight: 600; color: var(--green);
 }
 
+/* ── STRATEGIES GRID (homepage) ─────────────────────────── */
+.strategies-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+@media (max-width: 860px) {
+  .strategies-grid { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 560px) {
+  .strategies-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
 /* ── TESTIMONIALS (homepage) ─────────────────────────────── */
 .testimonial-grid {
   display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px;
