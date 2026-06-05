@@ -109,6 +109,7 @@
       </div>
       <ul class="footer__links">
         <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">Mission</a></li>
         <li><a href="wayside-soil.html">The Parable</a></li>
         <li><a href="strategies.html">Strategies</a></li>
         <li><a href="faq.html">Resources</a></li>
