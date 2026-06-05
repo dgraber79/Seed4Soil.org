@@ -20,7 +20,7 @@
           </li>
 
           <li class="nav__item">
-            <a class="nav__link" href="about.html">About</a>
+            <a class="nav__link" href="about.html">Mission</a>
           </li>
 
           <li class="nav__item">
@@ -164,7 +164,7 @@
 
   <nav class="nav__drawer-body">
     <a class="nav__drawer-link" href="index.html">Home</a>
-    <a class="nav__drawer-link" href="about.html">About</a>
+    <a class="nav__drawer-link" href="about.html">Mission</a>
 
     <div class="nav__drawer-group">
       <button class="nav__drawer-group-btn">
