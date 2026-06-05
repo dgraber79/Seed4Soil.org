@@ -20,6 +20,10 @@
           </li>
 
           <li class="nav__item">
+            <a class="nav__link" href="about.html">About</a>
+          </li>
+
+          <li class="nav__item">
             <a class="nav__link" href="index.html#parable">
               The Parable
               <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
@@ -160,6 +164,7 @@
 
   <nav class="nav__drawer-body">
     <a class="nav__drawer-link" href="index.html">Home</a>
+    <a class="nav__drawer-link" href="about.html">About</a>
 
     <div class="nav__drawer-group">
       <button class="nav__drawer-group-btn">

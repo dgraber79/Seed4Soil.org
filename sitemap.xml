@@ -8,6 +8,13 @@
     <changefreq>monthly</changefreq>
   </url>
 
+  <!-- About -->
+  <url>
+    <loc>https://seed4soil.org/about.html</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
   <!-- Bible Engagement Strategies -->
   <url>
     <loc>https://seed4soil.org/strategies.html</loc>
