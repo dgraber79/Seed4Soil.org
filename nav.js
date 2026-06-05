@@ -64,7 +64,7 @@
               <a href="why-storytelling-dialogue.html">Why Storytelling &amp; Dialogue?</a>
               <a href="inductive-vs-deductive.html">Inductive vs. Deductive Study</a>
               <a href="what-is-preaching.html">What is "Preaching?"</a>
-              <a href="story-learning-strategies.html">Story Learning Strategies</a>
+              <a href="story-learning-strategies.html">Story Learning &amp; Telling</a>
             </div>
           </li>
 
@@ -208,7 +208,7 @@
         <a href="why-storytelling-dialogue.html">Why Storytelling &amp; Dialogue?</a>
         <a href="inductive-vs-deductive.html">Inductive vs. Deductive Study</a>
         <a href="what-is-preaching.html">What is "Preaching?"</a>
-        <a href="story-learning-strategies.html">Story Learning Strategies</a>
+        <a href="story-learning-strategies.html">Story Learning &amp; Telling</a>
       </div>
     </div>
 
