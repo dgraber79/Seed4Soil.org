@@ -251,6 +251,14 @@
           <span class="training-card__arrow">Learn more →</span>
         </div>
       </a>
+      <a class="training-card" href="#contact">
+        <div class="training-card__num">5</div>
+        <div>
+          <div class="training-card__title">Custom Word Engagement Events</div>
+          <p class="training-card__desc">Not every group needs a standard training format. Seed4Soil offers custom workshops and Word engagement events shaped around the specific needs of a congregation, ministry team, cross-cultural workers, or oral learning community. These begin not with a curriculum but with a question: <em>What does this group most need in order to hear, receive, and share God's Word?</em></p>
+          <span class="training-card__arrow">Get in touch →</span>
+        </div>
+      </a>
     </div>
 
     <div style="text-align:center;margin-top:40px;">
@@ -360,22 +368,6 @@
   </div>
 </section>
 
-<!-- ═══ EMAIL SIGNUP ══════════════════════════════════════════ -->
-<div class="email-strip">
-  <div class="container">
-    <div class="email-strip__inner">
-      <div class="email-strip__text">
-        <h3>Stay connected</h3>
-        <p>Receive resources and updates on Bible engagement — enter your email to stay in touch.</p>
-      </div>
-      <form class="email-strip__form" onsubmit="return false;">
-        <input type="email" placeholder="your@email.com" />
-        <button class="btn btn--primary">Subscribe</button>
-      </form>
-    </div>
-  </div>
-</div>
-
 <!-- ═══ CONTACT ══════════════════════════════════════════════ -->
 <section class="section section--charcoal" id="contact">
   <div class="container">
@@ -389,41 +381,42 @@
           <a href="mailto:info@seed4soil.org" style="color:rgba(255,255,255,0.85);">info@seed4soil.org</a>
         </div>
       </div>
-      <form class="contact-form" onsubmit="return false;">
+      <form class="contact-form" action="https://formspree.io/f/meewonwj" method="POST">
         <div class="form-row-2">
           <div class="form-row">
             <label>First Name</label>
-            <input type="text" placeholder="Your first name" />
+            <input type="text" name="first_name" placeholder="Your first name" required />
           </div>
           <div class="form-row">
             <label>Last Name</label>
-            <input type="text" placeholder="Your last name" />
+            <input type="text" name="last_name" placeholder="Your last name" />
           </div>
         </div>
         <div class="form-row">
           <label>Email Address</label>
-          <input type="email" placeholder="you@example.com" />
+          <input type="email" name="email" placeholder="you@example.com" required />
         </div>
         <div class="form-row">
           <label>Church / Organization</label>
-          <input type="text" placeholder="Your church or ministry" />
+          <input type="text" name="organization" placeholder="Your church or ministry" />
         </div>
         <div class="form-row">
           <label>Training Interest</label>
-          <select>
+          <select name="training_interest">
             <option value="" disabled selected>Select a training</option>
             <option>STRATEGIES 1 - Training</option>
             <option>STRATEGIES 2 - Training</option>
             <option>Leadership STRATEGIES</option>
             <option>7 STRATEGIES for Oral Cultures</option>
+            <option>Custom Word Engagement Event</option>
             <option>General Inquiry</option>
           </select>
         </div>
         <div class="form-row">
           <label>Message</label>
-          <textarea placeholder="Your questions and requests…"></textarea>
+          <textarea name="message" placeholder="Your questions and requests…"></textarea>
         </div>
-        <button class="btn btn--primary" style="width:100%;">Send Message</button>
+        <button class="btn btn--primary" type="submit" style="width:100%;">Send Message</button>
       </form>
     </div>
   </div>

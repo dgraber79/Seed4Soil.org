@@ -86,7 +86,7 @@
       </nav>
 
       <div class="nav__cta">
-        <a class="btn btn--primary btn--sm" href="#contact">Get in Touch</a>
+        <a class="btn btn--primary btn--sm" href="index.html#contact">Get in Touch</a>
       </div>
 
       <button class="nav__hamburger" aria-label="Open menu">
