@@ -58,7 +58,7 @@
               <a href="testimonials.html">Testimonials</a>
               <a href="faq.html">Frequently Asked Questions</a>
               <a href="why-storytelling-dialogue.html">Why Storytelling &amp; Dialogue?</a>
-              <a href="inductive-vs-deductive.html">Inductive vs. Deductive Bible Study</a>
+              <a href="inductive-vs-deductive.html">Inductive vs. Deductive Study</a>
               <a href="what-is-preaching.html">What is "Preaching?"</a>
               <a href="story-learning-strategies.html">Story Learning Strategies</a>
             </div>
@@ -200,7 +200,7 @@
         <a href="testimonials.html">Testimonials</a>
         <a href="faq.html">Frequently Asked Questions</a>
         <a href="why-storytelling-dialogue.html">Why Storytelling &amp; Dialogue?</a>
-        <a href="inductive-vs-deductive.html">Inductive vs. Deductive Bible Study</a>
+        <a href="inductive-vs-deductive.html">Inductive vs. Deductive Study</a>
         <a href="what-is-preaching.html">What is "Preaching?"</a>
         <a href="story-learning-strategies.html">Story Learning Strategies</a>
       </div>
