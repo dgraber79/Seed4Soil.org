@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -7,7 +7,9 @@
   <!-- last updated: 2026-06-09 -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" /></noscript>
+  <link rel="preload" as="image" href="images/hero-bg.jpg" />
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" type="image/png" href="images/logo.png" />
   <meta name="description" content="Seed4Soil equips disciples and trainers with Bible engagement strategies rooted in the Parable of the Sower. Plant God's Word. Trust His Spirit." />
@@ -105,49 +107,49 @@
     <div class="soil-grid">
       <div class="soil-card">
         <div class="soil-card__img-wrap soil-card__img-wrap--wayside">
-          <img src="images/wayside.jpg" alt="Wayside Soil" />
+          <img src="images/wayside.jpg" alt="Wayside Soil" width="1440" height="1080" loading="lazy" />
         </div>
         <div class="soil-card__body">
           <div class="soil-card__number">Soil Type 01</div>
           <h3 class="soil-card__title">Wayside Soil</h3>
           <p class="soil-card__verse">"And these are the ones by the wayside where the word is sown. When they hear, Satan comes immediately and takes away the word that was sown in their hearts." — Mark 4:15</p>
-          <a class="soil-card__link" href="wayside-soil.html">Learn More</a>
+          <a class="soil-card__link" href="wayside-soil.html">Explore Wayside Soil →</a>
         </div>
       </div>
 
       <div class="soil-card">
         <div class="soil-card__img-wrap soil-card__img-wrap--stony">
-          <img src="images/stony.jpg" alt="Stony Soil" />
+          <img src="images/stony.jpg" alt="Stony Soil" width="1440" height="1080" loading="lazy" />
         </div>
         <div class="soil-card__body">
           <div class="soil-card__number">Soil Type 02</div>
           <h3 class="soil-card__title">Stony Soil</h3>
           <p class="soil-card__verse">"These likewise are the ones sown on stony ground who, when they hear the word, immediately receive it with gladness; and they have no root in themselves." — Mark 4:16–17</p>
-          <a class="soil-card__link" href="stony-soil.html">Learn More</a>
+          <a class="soil-card__link" href="stony-soil.html">Explore Stony Soil →</a>
         </div>
       </div>
 
       <div class="soil-card">
         <div class="soil-card__img-wrap soil-card__img-wrap--thorny">
-          <img src="images/thorny.jpg" alt="Thorny Soil" />
+          <img src="images/thorny.jpg" alt="Thorny Soil" width="1440" height="1080" loading="lazy" />
         </div>
         <div class="soil-card__body">
           <div class="soil-card__number">Soil Type 03</div>
           <h3 class="soil-card__title">Thorny Soil</h3>
           <p class="soil-card__verse">"Now these are the ones sown among thorns; they are the ones who hear the word, and the cares of this world, the deceitfulness of riches, and the desires for other things entering in choke the word." — Mark 4:18–19</p>
-          <a class="soil-card__link" href="thorny-soil.html">Learn More</a>
+          <a class="soil-card__link" href="thorny-soil.html">Explore Thorny Soil →</a>
         </div>
       </div>
 
       <div class="soil-card">
         <div class="soil-card__img-wrap soil-card__img-wrap--good">
-          <img src="images/good.jpg" alt="Good Soil" />
+          <img src="images/good.jpg" alt="Good Soil" width="1440" height="1080" loading="lazy" />
         </div>
         <div class="soil-card__body">
           <div class="soil-card__number">Soil Type 04</div>
           <h3 class="soil-card__title">Good Soil</h3>
           <p class="soil-card__verse">"But these are the ones sown on good ground, those who hear the word, accept it, and bear fruit: some thirtyfold, some sixty, and some a hundred." — Mark 4:20</p>
-          <a class="soil-card__link" href="good-soil.html">Learn More</a>
+          <a class="soil-card__link" href="good-soil.html">Explore Good Soil →</a>
         </div>
       </div>
     </div>
@@ -166,40 +168,30 @@
     </div>
 
     <div class="strategies-grid">
-      <a href="1-plant.html" style="background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.14);border-radius:12px;padding:24px 16px;text-align:center;text-decoration:none;transition:background 0.2s,transform 0.2s;"
-         onmouseover="this.style.background='rgba(255,255,255,0.15)';this.style.transform='translateY(-4px)'"
-         onmouseout="this.style.background='rgba(255,255,255,0.08)';this.style.transform='none'">
-        <div style="font-family:var(--serif);font-size:26px;font-weight:700;color:var(--sand);opacity:0.5;margin-bottom:10px;">1</div>
-        <div style="font-family:var(--serif);font-size:14px;font-weight:600;color:var(--white);line-height:1.35;margin-bottom:8px;">PLANT</div>
-        <div style="font-size:11px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--sand);opacity:0.75;">Foundational</div>
+      <a href="1-plant.html" class="strategy-card">
+        <div class="strategy-card__num">1</div>
+        <div class="strategy-card__title">PLANT</div>
+        <div class="strategy-card__tag">Foundational</div>
       </a>
-      <a href="2-hear.html" style="background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.14);border-radius:12px;padding:24px 16px;text-align:center;text-decoration:none;transition:background 0.2s,transform 0.2s;"
-         onmouseover="this.style.background='rgba(255,255,255,0.15)';this.style.transform='translateY(-4px)'"
-         onmouseout="this.style.background='rgba(255,255,255,0.08)';this.style.transform='none'">
-        <div style="font-family:var(--serif);font-size:26px;font-weight:700;color:var(--sand);opacity:0.5;margin-bottom:10px;">2</div>
-        <div style="font-family:var(--serif);font-size:14px;font-weight:600;color:var(--white);line-height:1.35;margin-bottom:8px;">HEAR</div>
-        <div style="font-size:11px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--sand);opacity:0.75;">Good Soil</div>
+      <a href="2-hear.html" class="strategy-card">
+        <div class="strategy-card__num">2</div>
+        <div class="strategy-card__title">HEAR</div>
+        <div class="strategy-card__tag">Good Soil</div>
       </a>
-      <a href="3-discover.html" style="background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.14);border-radius:12px;padding:24px 16px;text-align:center;text-decoration:none;transition:background 0.2s,transform 0.2s;"
-         onmouseover="this.style.background='rgba(255,255,255,0.15)';this.style.transform='translateY(-4px)'"
-         onmouseout="this.style.background='rgba(255,255,255,0.08)';this.style.transform='none'">
-        <div style="font-family:var(--serif);font-size:26px;font-weight:700;color:var(--sand);opacity:0.5;margin-bottom:10px;">3</div>
-        <div style="font-family:var(--serif);font-size:14px;font-weight:600;color:var(--white);line-height:1.35;margin-bottom:8px;">DISCOVER</div>
-        <div style="font-size:11px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--sand);opacity:0.75;">Good Sowing</div>
+      <a href="3-discover.html" class="strategy-card">
+        <div class="strategy-card__num">3</div>
+        <div class="strategy-card__title">DISCOVER</div>
+        <div class="strategy-card__tag">Good Sowing</div>
       </a>
-      <a href="4-space.html" style="background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.14);border-radius:12px;padding:24px 16px;text-align:center;text-decoration:none;transition:background 0.2s,transform 0.2s;"
-         onmouseover="this.style.background='rgba(255,255,255,0.15)';this.style.transform='translateY(-4px)'"
-         onmouseout="this.style.background='rgba(255,255,255,0.08)';this.style.transform='none'">
-        <div style="font-family:var(--serif);font-size:26px;font-weight:700;color:var(--sand);opacity:0.5;margin-bottom:10px;">4</div>
-        <div style="font-family:var(--serif);font-size:14px;font-weight:600;color:var(--white);line-height:1.35;margin-bottom:8px;">SPACE</div>
-        <div style="font-size:11px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--sand);opacity:0.75;">Good Soil &amp; Sowing</div>
+      <a href="4-space.html" class="strategy-card">
+        <div class="strategy-card__num">4</div>
+        <div class="strategy-card__title">SPACE</div>
+        <div class="strategy-card__tag">Good Soil &amp; Sowing</div>
       </a>
-      <a href="5-trust.html" style="background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.14);border-radius:12px;padding:24px 16px;text-align:center;text-decoration:none;transition:background 0.2s,transform 0.2s;"
-         onmouseover="this.style.background='rgba(255,255,255,0.15)';this.style.transform='translateY(-4px)'"
-         onmouseout="this.style.background='rgba(255,255,255,0.08)';this.style.transform='none'">
-        <div style="font-family:var(--serif);font-size:26px;font-weight:700;color:var(--sand);opacity:0.5;margin-bottom:10px;">5</div>
-        <div style="font-family:var(--serif);font-size:14px;font-weight:600;color:var(--white);line-height:1.35;margin-bottom:8px;">TRUST</div>
-        <div style="font-size:11px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--sand);opacity:0.75;">Good Seed</div>
+      <a href="5-trust.html" class="strategy-card">
+        <div class="strategy-card__num">5</div>
+        <div class="strategy-card__title">TRUST</div>
+        <div class="strategy-card__tag">Good Seed</div>
       </a>
     </div>
     <div style="text-align:center;margin-top:36px;">

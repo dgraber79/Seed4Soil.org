@@ -806,3 +806,123 @@ ul { list-style: none; }
   .soil-grid { grid-template-columns: 1fr; }
   .strategies-grid { grid-template-columns: repeat(2, 1fr); }
 }
+
+/* ── STRATEGIES PAGE ─────────────────────────────────────── */
+.strat-hero {
+  text-align: center;
+  padding: 64px 24px 48px;
+  animation: stratFadeUp 0.6s ease both;
+}
+.strat-hero__eyebrow {
+  font-family: var(--sans);
+  font-size: 11px; font-weight: 600; letter-spacing: 0.18em;
+  text-transform: uppercase; color: var(--sand); margin-bottom: 14px;
+}
+.strat-hero__title {
+  font-family: var(--serif);
+  font-size: clamp(28px, 5vw, 44px);
+  font-weight: 700; color: var(--white); line-height: 1.15; margin-bottom: 18px;
+}
+.strat-hero__sub {
+  font-family: var(--sans); font-size: 16px; font-style: italic;
+  color: rgba(255,255,255,0.8); max-width: 480px;
+  margin: 0 auto 36px; line-height: 1.8;
+}
+.strat-botanical { display: block; margin: 0 auto; color: var(--white); opacity: 0.35; }
+
+.strat-eq { background: var(--green); padding: 44px 24px; animation: stratFadeUp 0.6s 0.1s ease both; }
+.strat-eq__row {
+  display: flex; align-items: center; justify-content: center;
+  flex-wrap: wrap; gap: 8px 6px; max-width: 820px; margin: 0 auto 18px;
+}
+.strat-eq__badge {
+  font-family: var(--serif); font-size: 13px; font-weight: 700;
+  letter-spacing: 0.12em; color: rgba(230,215,180,0.85);
+  border: 0.5px solid rgba(230,215,180,0.2);
+  background: rgba(230,215,180,0.07); padding: 7px 16px; border-radius: 6px;
+  transition: background 0.2s, border-color 0.2s;
+}
+.strat-eq__badge:hover { background: rgba(230,215,180,0.15); border-color: rgba(230,215,180,0.4); }
+.strat-eq__op { font-family: var(--serif); font-size: 16px; color: rgba(230,215,180,0.25); user-select: none; }
+.strat-eq__equals { font-family: var(--serif); font-size: 20px; color: var(--sand); margin: 0 4px; user-select: none; }
+.strat-eq__abiding { font-family: var(--serif); font-size: 22px; font-weight: 700; font-style: italic; color: var(--sand); }
+.strat-eq__verse {
+  text-align: center; font-family: var(--sans); font-size: 12px; font-style: italic;
+  color: rgba(230,215,180,0.55); max-width: 420px; margin: 0 auto; line-height: 1.7;
+}
+
+.strat-intro { max-width: 640px; margin: 56px auto 48px; text-align: center; padding: 0 24px; animation: stratFadeUp 0.6s 0.2s ease both; }
+.strat-intro p { font-size: 16px; color: var(--mid); line-height: 1.9; }
+
+.strat-cards {
+  display: grid; grid-template-columns: repeat(5, 1fr);
+  gap: 1px; background: var(--cream-dk);
+  border-top: 1px solid var(--cream-dk); border-bottom: 1px solid var(--cream-dk);
+  animation: stratFadeUp 0.6s 0.3s ease both;
+}
+@media (max-width: 900px) { .strat-cards { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 560px) { .strat-cards { grid-template-columns: 1fr 1fr; } }
+
+.strat-card {
+  background: var(--white); padding: 28px 20px 24px;
+  display: flex; flex-direction: column; gap: 6px;
+  position: relative; overflow: hidden;
+  text-decoration: none; color: inherit; transition: background 0.2s;
+}
+.strat-card:hover { background: var(--cream); }
+.strat-card:hover .strat-card__link { color: var(--green); }
+.strat-card__num {
+  position: absolute; top: 10px; right: 14px;
+  font-family: var(--serif); font-size: 52px; font-weight: 700;
+  color: var(--charcoal); opacity: 0.04; line-height: 1; user-select: none;
+}
+.strat-card__bar { height: 2px; width: 26px; background: var(--terracotta); margin-bottom: 8px; flex-shrink: 0; }
+.strat-card__name { font-family: var(--serif); font-size: 16px; font-weight: 700; color: var(--charcoal); }
+.strat-card__tag { font-family: var(--sans); font-size: 11px; font-style: italic; color: var(--terracotta); line-height: 1.4; }
+.strat-card__desc { font-family: var(--sans); font-size: 13px; color: var(--mid); line-height: 1.75; flex: 1; margin-top: 6px; }
+.strat-card__link { font-family: var(--sans); font-size: 11px; font-weight: 600; color: var(--mid); margin-top: 10px; transition: color 0.2s; display: block; letter-spacing: 0.04em; }
+
+.strat-abiding { background: var(--green); padding: 88px 24px; text-align: center; }
+.strat-abiding__label { font-family: var(--sans); font-size: 11px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(230,215,180,0.45); margin-bottom: 18px; }
+.strat-abiding__eq { font-family: var(--serif); font-size: clamp(11px,1.5vw,13px); color: rgba(230,215,180,0.28); letter-spacing: 0.12em; margin-bottom: 20px; }
+.strat-abiding__word { font-family: var(--serif); font-size: clamp(52px,10vw,88px); font-weight: 700; font-style: italic; color: var(--sand); line-height: 1; margin-bottom: 36px; letter-spacing: -0.01em; }
+.strat-abiding__verse { font-family: var(--sans); font-size: 14px; font-style: italic; color: rgba(230,215,180,0.6); max-width: 400px; margin: 0 auto 10px; line-height: 1.8; }
+.strat-abiding__ref { font-family: var(--sans); font-size: 11px; letter-spacing: 0.1em; color: rgba(230,215,180,0.35); }
+
+.strat-cta { padding: 60px 24px 80px; text-align: center; background: var(--cream); }
+.strat-cta p { font-family: var(--sans); font-size: 15px; font-style: italic; color: var(--mid); margin-bottom: 24px; }
+
+@keyframes stratFadeUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Shared strategy-page layout classes (used by 1-plant through 5-trust and content pages) */
+.strategy-section { margin-bottom: 52px; padding-bottom: 52px; border-bottom: 2px solid var(--cream-dk); }
+.strategy-section:last-of-type { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+.section-label {
+  display: inline-block;
+  font-size: 11px; font-weight: 700; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--white);
+  background: var(--terracotta); border-radius: 4px;
+  padding: 3px 10px; margin-top: 24px; margin-bottom: 10px;
+}
+.section-title-lg {
+  font-family: var(--serif); font-size: clamp(22px, 3vw, 30px);
+  font-weight: 700; color: var(--charcoal);
+  margin-bottom: 20px; line-height: 1.2;
+}
+.closing-statement {
+  background: var(--green); border-radius: 12px;
+  padding: 36px 40px; text-align: center; margin-top: 48px;
+}
+.closing-statement p {
+  font-family: var(--serif); font-size: clamp(17px, 2.2vw, 22px);
+  font-style: italic; color: var(--white); line-height: 1.7;
+  margin-bottom: 0 !important;
+}
+.closing-statement strong {
+  display: block; margin-top: 16px;
+  font-family: var(--sans); font-size: 14px; font-weight: 700;
+  letter-spacing: 0.12em; text-transform: uppercase; color: var(--sand);
+}

@@ -230,7 +230,7 @@
   </nav>
 
   <div class="nav__drawer-footer">
-    <a class="btn btn--primary" href="#contact" style="width:100%;text-align:center;display:block;">Get in Touch</a>
+    <a class="btn btn--primary" href="index.html#contact" style="width:100%;text-align:center;display:block;">Get in Touch</a>
   </div>
 </div>`;
 
