@@ -926,3 +926,35 @@ ul { list-style: none; }
   font-family: var(--sans); font-size: 14px; font-weight: 700;
   letter-spacing: 0.12em; text-transform: uppercase; color: var(--sand);
 }
+
+
+/* ============ SHARED PAGE COMPONENTS ============ */
+
+/* Download resource cards */
+.dl-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 8px; }
+@media (max-width: 560px) { .dl-grid { grid-template-columns: 1fr; } }
+.dl-card {
+  display: flex; flex-direction: column; justify-content: space-between;
+  background: var(--cream); border: 1px solid var(--cream-dk); border-radius: 10px;
+  padding: 18px 20px; text-decoration: none; transition: box-shadow 0.2s;
+}
+.dl-card:hover { box-shadow: var(--shadow); }
+.dl-card__icon { font-size: 24px; margin-bottom: 8px; }
+.dl-card__title { font-family: var(--sans); font-size: 14px; font-weight: 700; color: var(--charcoal); margin-bottom: 6px; }
+.dl-card__desc { font-size: 13px; color: var(--mid); line-height: 1.5; margin: 0 0 14px; }
+.dl-card__cta { font-family: var(--sans); font-size: 13px; font-weight: 600; color: var(--terracotta); }
+
+/* Host-a-training CTA box */
+.host-cta { background: var(--cream); border-radius: 12px; padding: 28px; margin-top: 32px; text-align: center; }
+.host-cta p { font-size: 16px; color: var(--mid); margin-bottom: 16px; }
+
+/* Bottom prev/next navigation row */
+.page-nav-row { margin-top: 36px; padding-top: 36px; border-top: 1px solid var(--cream-dk); display: flex; gap: 16px; flex-wrap: wrap; }
+/* Orality stat band */
+.stat-band { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin: 36px 0 12px; }
+@media (max-width: 900px) { .stat-band { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 480px) { .stat-band { grid-template-columns: 1fr; } }
+.stat-card { background: var(--cream); border: 1px solid var(--cream-dk); border-radius: 10px; padding: 20px 18px; text-align: center; }
+.stat-card__num { font-family: var(--serif); font-size: 34px; font-weight: 700; color: var(--terracotta); line-height: 1.1; margin-bottom: 8px; }
+.stat-card__label { font-family: var(--sans); font-size: 13px; color: var(--mid); line-height: 1.5; }
+.stat-band-kicker { text-align: center; font-style: italic; color: var(--mid); font-size: 15px; margin: 0 0 36px; }
