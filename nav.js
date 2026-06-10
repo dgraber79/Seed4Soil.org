@@ -59,12 +59,12 @@
             </a>
             <div class="nav__dropdown">
               <div class="nav__dropdown-label">Articles &amp; Methods</div>
+              <a href="why-storytelling-dialogue.html">Why Storytelling &amp; Dialogue?</a>
+              <a href="what-is-preaching.html">What is "Preaching?"</a>
+              <a href="inductive-vs-deductive.html">Inductive vs. Deductive Study</a>
+              <a href="story-learning-strategies.html">Story Learning &amp; Telling</a>
               <a href="testimonials.html">Testimonials</a>
               <a href="faq.html">Frequently Asked Questions</a>
-              <a href="why-storytelling-dialogue.html">Why Storytelling &amp; Dialogue?</a>
-              <a href="inductive-vs-deductive.html">Inductive vs. Deductive Study</a>
-              <a href="what-is-preaching.html">What is "Preaching?"</a>
-              <a href="story-learning-strategies.html">Story Learning &amp; Telling</a>
             </div>
           </li>
 
@@ -79,6 +79,7 @@
               <a href="strategies-2.html">STRATEGIES 2 - Training</a>
               <a href="leadership-strategies.html">Leadership STRATEGIES</a>
               <a href="7-strategies-oral.html">7 STRATEGIES for Oral Cultures</a>
+              <a href="custom-events.html">Custom Word Engagement Events</a>
             </div>
           </li>
 
@@ -203,12 +204,12 @@
       </button>
       <div class="nav__drawer-sub">
         <div class="nav__drawer-sub-label">Articles &amp; Methods</div>
+        <a href="why-storytelling-dialogue.html">Why Storytelling &amp; Dialogue?</a>
+        <a href="what-is-preaching.html">What is "Preaching?"</a>
+        <a href="inductive-vs-deductive.html">Inductive vs. Deductive Study</a>
+        <a href="story-learning-strategies.html">Story Learning &amp; Telling</a>
         <a href="testimonials.html">Testimonials</a>
         <a href="faq.html">Frequently Asked Questions</a>
-        <a href="why-storytelling-dialogue.html">Why Storytelling &amp; Dialogue?</a>
-        <a href="inductive-vs-deductive.html">Inductive vs. Deductive Study</a>
-        <a href="what-is-preaching.html">What is "Preaching?"</a>
-        <a href="story-learning-strategies.html">Story Learning &amp; Telling</a>
       </div>
     </div>
 
@@ -225,6 +226,7 @@
         <a href="strategies-2.html">STRATEGIES 2 - Training</a>
         <a href="leadership-strategies.html">Leadership STRATEGIES</a>
         <a href="7-strategies-oral.html">7 STRATEGIES for Oral Cultures</a>
+        <a href="custom-events.html">Custom Word Engagement Events</a>
       </div>
     </div>
   </nav>
