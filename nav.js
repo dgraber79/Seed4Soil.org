@@ -78,7 +78,8 @@
               <a href="strategies-1.html">STRATEGIES 1 - Training</a>
               <a href="strategies-2.html">STRATEGIES 2 - Training</a>
               <a href="leadership-strategies.html">Leadership STRATEGIES</a>
-              <a href="7-strategies-oral.html">7 STRATEGIES for Oral Cultures</a>
+              <a href="7-strategies-oral.html">STRATEGIES 1 for Oral Cultures</a>
+              <a href="strategies-2-oral.html">STRATEGIES 2 for Oral Cultures</a>
               <a href="custom-events.html">Custom Word Engagement Events</a>
             </div>
           </li>
@@ -225,7 +226,8 @@
         <a href="strategies-1.html">STRATEGIES 1 - Training</a>
         <a href="strategies-2.html">STRATEGIES 2 - Training</a>
         <a href="leadership-strategies.html">Leadership STRATEGIES</a>
-        <a href="7-strategies-oral.html">7 STRATEGIES for Oral Cultures</a>
+        <a href="7-strategies-oral.html">STRATEGIES 1 for Oral Cultures</a>
+        <a href="strategies-2-oral.html">STRATEGIES 2 for Oral Cultures</a>
         <a href="custom-events.html">Custom Word Engagement Events</a>
       </div>
     </div>
