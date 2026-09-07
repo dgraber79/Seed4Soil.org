@@ -4,7 +4,7 @@
 <header class="nav">
   <div class="container">
     <div class="nav__inner">
-      <a class="nav__logo" href="index.html">
+      <a class="nav__logo" href="/">
         <img class="nav__logo-img" src="images/logo.png" alt="Seed4Soil" />
         <span class="nav__logo-text">
           Seed<span class="nav__logo-accent">4</span>Soil
@@ -16,39 +16,39 @@
         <ul class="nav__menu">
 
           <li class="nav__item">
-            <a class="nav__link" href="index.html">Home</a>
+            <a class="nav__link" href="/">Home</a>
           </li>
 
           <li class="nav__item">
-            <a class="nav__link" href="about.html">Mission</a>
+            <a class="nav__link" href="about">Mission</a>
           </li>
 
           <li class="nav__item">
-            <a class="nav__link" href="index.html#parable">
+            <a class="nav__link" href="/#parable">
               The Parable
               <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
             </a>
             <div class="nav__dropdown">
               <div class="nav__dropdown-label">Four Soil Types</div>
-              <a href="wayside-soil.html">Wayside Soil</a>
-              <a href="stony-soil.html">Stony Soil</a>
-              <a href="thorny-soil.html">Thorny Soil</a>
-              <a href="good-soil.html">Good Soil</a>
+              <a href="wayside-soil">Wayside Soil</a>
+              <a href="stony-soil">Stony Soil</a>
+              <a href="thorny-soil">Thorny Soil</a>
+              <a href="good-soil">Good Soil</a>
             </div>
           </li>
 
           <li class="nav__item">
-            <a class="nav__link" href="strategies.html">
+            <a class="nav__link" href="strategies">
               Strategies
               <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
             </a>
             <div class="nav__dropdown">
               <div class="nav__dropdown-label">Bible Engagement Strategies</div>
-              <a href="1-plant.html">1 · PLANT</a>
-              <a href="2-hear.html">2 · HEAR</a>
-              <a href="3-discover.html">3 · DISCOVER</a>
-              <a href="4-space.html">4 · SPACE</a>
-              <a href="5-trust.html">5 · TRUST</a>
+              <a href="1-plant">1 · PLANT</a>
+              <a href="2-hear">2 · HEAR</a>
+              <a href="3-discover">3 · DISCOVER</a>
+              <a href="4-space">4 · SPACE</a>
+              <a href="5-trust">5 · TRUST</a>
             </div>
           </li>
 
@@ -59,28 +59,28 @@
             </a>
             <div class="nav__dropdown">
               <div class="nav__dropdown-label">Articles &amp; Methods</div>
-              <a href="why-storytelling-dialogue.html">Why Storytelling &amp; Dialogue?</a>
-              <a href="what-is-preaching.html">What is "Preaching?"</a>
-              <a href="inductive-vs-deductive.html">Inductive vs. Deductive Study</a>
-              <a href="story-learning-strategies.html">Story Learning &amp; Telling</a>
-              <a href="testimonials.html">Testimonials</a>
-              <a href="faq.html">Frequently Asked Questions</a>
+              <a href="why-storytelling-dialogue">Why Storytelling &amp; Dialogue?</a>
+              <a href="what-is-preaching">What is "Preaching?"</a>
+              <a href="inductive-vs-deductive">Inductive vs. Deductive Study</a>
+              <a href="story-learning-strategies">Story Learning &amp; Telling</a>
+              <a href="testimonials">Testimonials</a>
+              <a href="faq">Frequently Asked Questions</a>
             </div>
           </li>
 
           <li class="nav__item">
-            <a class="nav__link" href="trainings.html">
+            <a class="nav__link" href="trainings">
               Trainings
               <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
             </a>
             <div class="nav__dropdown">
               <div class="nav__dropdown-label">Word Engagement Training</div>
-              <a href="strategies-1.html">STRATEGIES 1 - Training</a>
-              <a href="strategies-2.html">STRATEGIES 2 - Training</a>
-              <a href="leadership-strategies.html">Leadership STRATEGIES</a>
-              <a href="7-strategies-oral.html">STRATEGIES 1 for Oral Cultures</a>
-              <a href="strategies-2-oral.html">STRATEGIES 2 for Oral Cultures</a>
-              <a href="custom-events.html">Custom Word Engagement Events</a>
+              <a href="strategies-1">STRATEGIES 1 - Training</a>
+              <a href="strategies-2">STRATEGIES 2 - Training</a>
+              <a href="leadership-strategies">Leadership STRATEGIES</a>
+              <a href="7-strategies-oral">STRATEGIES 1 for Oral Cultures</a>
+              <a href="strategies-2-oral">STRATEGIES 2 for Oral Cultures</a>
+              <a href="custom-events">Custom Word Engagement Events</a>
             </div>
           </li>
 
@@ -88,7 +88,7 @@
       </nav>
 
       <div class="nav__cta">
-        <a class="btn btn--primary btn--sm" href="index.html#contact">Get in Touch</a>
+        <a class="btn btn--primary btn--sm" href="/#contact">Get in Touch</a>
       </div>
 
       <button class="nav__hamburger" aria-label="Open menu">
@@ -110,12 +110,12 @@
         </div>
       </div>
       <ul class="footer__links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">Mission</a></li>
-        <li><a href="wayside-soil.html">The Parable</a></li>
-        <li><a href="strategies.html">Strategies</a></li>
-        <li><a href="faq.html">Resources</a></li>
-        <li><a href="trainings.html">Trainings</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="about">Mission</a></li>
+        <li><a href="wayside-soil">The Parable</a></li>
+        <li><a href="strategies">Strategies</a></li>
+        <li><a href="faq">Resources</a></li>
+        <li><a href="trainings">Trainings</a></li>
       </ul>
       <div class="footer__contact">
         <a href="mailto:info@seed4soil.org">info@seed4soil.org</a>
@@ -155,7 +155,7 @@
 <div id="nav-overlay" class="nav__overlay"></div>
 <div id="nav-drawer" class="nav__drawer">
   <div class="nav__drawer-header">
-    <a class="nav__drawer-logo" href="index.html">
+    <a class="nav__drawer-logo" href="/">
       <img src="images/logo.png" alt="Seed4Soil" />
       <span class="nav__drawer-logo-text">
         Seed<span class="nav__logo-accent">4</span>Soil
@@ -166,8 +166,8 @@
   </div>
 
   <nav class="nav__drawer-body">
-    <a class="nav__drawer-link" href="index.html">Home</a>
-    <a class="nav__drawer-link" href="about.html">Mission</a>
+    <a class="nav__drawer-link" href="/">Home</a>
+    <a class="nav__drawer-link" href="about">Mission</a>
 
     <div class="nav__drawer-group">
       <button class="nav__drawer-group-btn">
@@ -176,10 +176,10 @@
       </button>
       <div class="nav__drawer-sub">
         <div class="nav__drawer-sub-label">Four Soil Types</div>
-        <a href="wayside-soil.html">Wayside Soil</a>
-        <a href="stony-soil.html">Stony Soil</a>
-        <a href="thorny-soil.html">Thorny Soil</a>
-        <a href="good-soil.html">Good Soil</a>
+        <a href="wayside-soil">Wayside Soil</a>
+        <a href="stony-soil">Stony Soil</a>
+        <a href="thorny-soil">Thorny Soil</a>
+        <a href="good-soil">Good Soil</a>
       </div>
     </div>
 
@@ -190,11 +190,11 @@
       </button>
       <div class="nav__drawer-sub">
         <div class="nav__drawer-sub-label">Bible Engagement Strategies</div>
-        <a href="1-plant.html">1 · PLANT</a>
-        <a href="2-hear.html">2 · HEAR</a>
-        <a href="3-discover.html">3 · DISCOVER</a>
-        <a href="4-space.html">4 · SPACE</a>
-        <a href="5-trust.html">5 · TRUST</a>
+        <a href="1-plant">1 · PLANT</a>
+        <a href="2-hear">2 · HEAR</a>
+        <a href="3-discover">3 · DISCOVER</a>
+        <a href="4-space">4 · SPACE</a>
+        <a href="5-trust">5 · TRUST</a>
       </div>
     </div>
 
@@ -205,12 +205,12 @@
       </button>
       <div class="nav__drawer-sub">
         <div class="nav__drawer-sub-label">Articles &amp; Methods</div>
-        <a href="why-storytelling-dialogue.html">Why Storytelling &amp; Dialogue?</a>
-        <a href="what-is-preaching.html">What is "Preaching?"</a>
-        <a href="inductive-vs-deductive.html">Inductive vs. Deductive Study</a>
-        <a href="story-learning-strategies.html">Story Learning &amp; Telling</a>
-        <a href="testimonials.html">Testimonials</a>
-        <a href="faq.html">Frequently Asked Questions</a>
+        <a href="why-storytelling-dialogue">Why Storytelling &amp; Dialogue?</a>
+        <a href="what-is-preaching">What is "Preaching?"</a>
+        <a href="inductive-vs-deductive">Inductive vs. Deductive Study</a>
+        <a href="story-learning-strategies">Story Learning &amp; Telling</a>
+        <a href="testimonials">Testimonials</a>
+        <a href="faq">Frequently Asked Questions</a>
       </div>
     </div>
 
@@ -223,18 +223,18 @@
       </button>
       <div class="nav__drawer-sub">
         <div class="nav__drawer-sub-label">Word Engagement Training</div>
-        <a href="strategies-1.html">STRATEGIES 1 - Training</a>
-        <a href="strategies-2.html">STRATEGIES 2 - Training</a>
-        <a href="leadership-strategies.html">Leadership STRATEGIES</a>
-        <a href="7-strategies-oral.html">STRATEGIES 1 for Oral Cultures</a>
-        <a href="strategies-2-oral.html">STRATEGIES 2 for Oral Cultures</a>
-        <a href="custom-events.html">Custom Word Engagement Events</a>
+        <a href="strategies-1">STRATEGIES 1 - Training</a>
+        <a href="strategies-2">STRATEGIES 2 - Training</a>
+        <a href="leadership-strategies">Leadership STRATEGIES</a>
+        <a href="7-strategies-oral">STRATEGIES 1 for Oral Cultures</a>
+        <a href="strategies-2-oral">STRATEGIES 2 for Oral Cultures</a>
+        <a href="custom-events">Custom Word Engagement Events</a>
       </div>
     </div>
   </nav>
 
   <div class="nav__drawer-footer">
-    <a class="btn btn--primary" href="index.html#contact" style="width:100%;text-align:center;display:block;">Get in Touch</a>
+    <a class="btn btn--primary" href="/#contact" style="width:100%;text-align:center;display:block;">Get in Touch</a>
   </div>
 </div>`;
 
