@@ -14,6 +14,7 @@
 /trainings/leadership-strategies                                             /leadership-strategies    301
 /trainings/7-strategies-for-oral-cultures-training                           /7-strategies-oral        301
 /bible-engagement-strategies                                                 /strategies               301
+/bible-engagement-strategies/plant-seed-in-soil                              /1-plant                  301
 
 # Force 301 (not Pages' default 307) from old .html URLs to extensionless
 /index.html                 /                              301
